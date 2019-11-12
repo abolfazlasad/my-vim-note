@@ -7,11 +7,31 @@ noun in vim: (text object)
 	is - is
 
 ============================================================
-search:
-	f , F , t , T => find (";", "," for repeat)
-	/  - search
-	?  - search(backward)
+Search
+	search within a buffer:
+	To search for instances of a regex within a buffer:
+		/<pattern><CR>
+		To go the second match, either
+			/<CR>   or   n    or N (backward)
+		To search backwards:
+			?<pattern><CR>
+		can configure vim to wrap the search around from the end 
+				of the buffer back to the start:
+			:set wrapscan	
+	To search for world under cursor: * , # (backward)
 	g* - Word under cursor -forward (unbounded)
+	==============================
+	search within a line:
+	Often you just want to jump to a particular character 
+			within the current line
+	There's some short-cuts for that: 
+		f<char> (for "find")
+		F<char> (for "find backward")
+		t<char> (for "till")
+		T<cahr> (for "till backward")
+	if you put a count before the f you're jumped to the Nth instance:
+		5fu
+	use ";", "," for repeat
 
 ============================================================
 verb:
@@ -85,6 +105,9 @@ set:
 			first tab counted one and second tab counted four
 		TODO : help rulerformat
 			   help statusline
+	wrapscan:
+		can configure vim to wrap the search around from the end of the buffer back to the start
+		default is set so can set nowrapscan for no wrapping
 
 ============================================================
 Repeat yourself numerically
@@ -110,7 +133,7 @@ keep track of where you are
 
 ============================================================
 matching delimiters
-	%	- tom move the matching bracket of a {...}, (...) or [...] pair
+	%	- to move the matching bracket of a {...}, (...) or [...] pair
 	by default, vim only matches [], (), [] but you can extend that to whatever pairs you like:
 		set matchpairs+=<:>
 
@@ -127,6 +150,23 @@ pen to the page:
 	O - Enter insert mode on the above line
 	c - replace from the current cursor position to where the motion reaches
 	C - Delete from cursor to end of line and begin insert
+
+============================================================
+Control your insertions
+	In either editing mode most characters you type insert that character...but not all!
+	Many of the control characters have special insertion begaviours
+	CTRL-Y	duplicates the character in the same column on the preceding line
+	CTRL-E	duplicates the character in the same column on the following line
+	CTRL-A	insert again whatever the most-recent inserted text was
+	CTRL-R	inserts the contents of a register
+	CTRL-R=	evaluates an expression and insert the result
+	CTRL-T	inserts a tab at the start of the line 
+		(without moving the insertion point)
+	CTRL-V	inserts the next character verbatim
+		(even if it's normally a control character)
+	CTRL-W	deletes the word preceding the cursor
+	CTRL-O	takes you back to Normal mode for one command
+		Handy, for example, to clean the rest of the line: D
 
 ============================================================
 Keep track of where you were
@@ -196,7 +236,11 @@ todo:
 		alias v \!vim +normal\\\'\\\"
 
 vim_mastering :
-	fix your deletions
-	page 11
+	use searches as motions
+	page 13
 read more about mark
 	and some non-alphabetic marks
+read more about case sensitivitiy in search
+	ignorecase
+	smartcase
+	options in search
