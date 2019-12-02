@@ -269,8 +269,6 @@ todo:
 vim_mastering :
 	use searches as motions
 	page 13
-read more about mark
-	and some non-alphabetic marks
 read more about case sensitivitiy in search
 	ignorecase
 	smartcase
