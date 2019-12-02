@@ -223,6 +223,14 @@ use vim's own navigation marks
 		returned to a mark)
 
 ============================================================
+Navigate between lowercase marks
+	['	jump to previous line with a lowercase mark
+	]'	jump to next line with a lowercase mark
+	[`	jump to previous lowercase mark
+	]`	jump to next lowercase mark
+		* The above commands take a count. For example, 5]`
+
+============================================================
 todo:
 	vim:
 		visual mode
