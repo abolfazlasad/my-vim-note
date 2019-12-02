@@ -231,6 +231,22 @@ Navigate between lowercase marks
 		* The above commands take a count. For example, 5]`
 
 ============================================================
+Special marks
+	vim has some special marks which it sets automatically
+	`.	jump to position where last change occurred in current buffer
+	`"	jump to position where last exited current buffer
+	`0	jump to position in last file edited (when exited vim)	
+	`1	line `0 but the previous file (also `2 etc)
+	''	jump back (to line in current buffer where jumped from)
+	``	jump back (to position in current buffer where jumped from)	
+	`[ 	jump to beginning of previously changed or yanked text
+	`] 	jump to    end    of previously changed or yanked text
+	`<	jump to beginning of last visual selection
+	`>	jump to    end    of last visual selection
+	`^	jump to the position where the cursor was the last time when
+			Insert mode was stopped
+
+============================================================
 todo:
 	vim:
 		visual mode
