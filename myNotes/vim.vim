@@ -244,3 +244,4 @@ read more about case sensitivitiy in search
 	ignorecase
 	smartcase
 	options in search
+read about Macro
