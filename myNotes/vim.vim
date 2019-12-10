@@ -240,7 +240,8 @@ vim_mastering :
 	page 13
 read more about mark
 	and some non-alphabetic marks
-read more about case sensitivitiy in search
+read more about case sensitivitiy in search 
+	mastering_vim Page:12
 	ignorecase
 	smartcase
 	options in search
