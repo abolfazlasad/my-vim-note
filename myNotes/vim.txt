@@ -106,7 +106,8 @@ set:
 		TODO : help rulerformat
 			   help statusline
 	wrapscan:
-		can configure vim to wrap the search around from the end of the buffer back to the start
+		can configure vim to wrap the search around from the 
+			end of the buffer back to the start
 		default is set so can set nowrapscan for no wrapping
 
 ============================================================
@@ -134,7 +135,8 @@ keep track of where you are
 ============================================================
 matching delimiters
 	%	- to move the matching bracket of a {...}, (...) or [...] pair
-	by default, vim only matches [], (), [] but you can extend that to whatever pairs you like:
+	by default, vim only matches [], (), [] but you can extend that 
+			to whatever pairs you like:
 		set matchpairs+=<:>
 
 ============================================================
@@ -148,15 +150,19 @@ pen to the page:
 	A - Enter insert mode at the end of the line
 	o - Enter insert mode on the next line
 	O - Enter insert mode on the above line
-	c - replace from the current cursor position to where the motion reaches
+	c - replace from the current cursor position to where 
+		the motion reaches
 	C - Delete from cursor to end of line and begin insert
 
 ============================================================
 Control your insertions
-	In either editing mode most characters you type insert that character...but not all!
+	In either editing mode most characters you type insert 
+		that character...but not all!
 	Many of the control characters have special insertion begaviours
-	CTRL-Y	duplicates the character in the same column on the preceding line
-	CTRL-E	duplicates the character in the same column on the following line
+	CTRL-Y	duplicates the character in the same column on 
+		the preceding line
+	CTRL-E	duplicates the character in the same column on 
+		the following line
 	CTRL-A	insert again whatever the most-recent inserted text was
 	CTRL-R	inserts the contents of a register
 	CTRL-R=	evaluates an expression and insert the result
@@ -213,7 +219,32 @@ use vim's own navigation marks
 	You can use <CTRL-O> and <CTRL-I> to 
 		step back and forth through the list
 	
-	(*jumped where "jumped" means searched, used G, or returned to a mark)
+	(*jumped where "jumped" means searched, used G, or 
+		returned to a mark)
+
+============================================================
+Navigate between lowercase marks
+	['	jump to previous line with a lowercase mark
+	]'	jump to next line with a lowercase mark
+	[`	jump to previous lowercase mark
+	]`	jump to next lowercase mark
+		* The above commands take a count. For example, 5]`
+
+============================================================
+Special marks
+	vim has some special marks which it sets automatically
+	`.	jump to position where last change occurred in current buffer
+	`"	jump to position where last exited current buffer
+	`0	jump to position in last file edited (when exited vim)	
+	`1	line `0 but the previous file (also `2 etc)
+	''	jump back (to line in current buffer where jumped from)
+	``	jump back (to position in current buffer where jumped from)	
+	`[ 	jump to beginning of previously changed or yanked text
+	`] 	jump to    end    of previously changed or yanked text
+	`<	jump to beginning of last visual selection
+	`>	jump to    end    of last visual selection
+	`^	jump to the position where the cursor was the last time when
+			Insert mode was stopped
 
 ============================================================
 todo:
@@ -238,10 +269,15 @@ todo:
 vim_mastering :
 	use searches as motions
 	page 13
+<<<<<<< HEAD:myNotes/vim.vim
 read more about mark
 	and some non-alphabetic marks
 read more about case sensitivitiy in search 
 	mastering_vim Page:12
+=======
+read more about case sensitivitiy in search
+>>>>>>> 86237834c7537f6b316ecc4f5c572da75a791b49:myNotes/vim.txt
 	ignorecase
 	smartcase
 	options in search
+read about Macro
