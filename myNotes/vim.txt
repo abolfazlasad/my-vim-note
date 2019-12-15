@@ -109,6 +109,8 @@ set:
 		can configure vim to wrap the search around from the 
 			end of the buffer back to the start
 		default is set so can set nowrapscan for no wrapping
+	incsearch:
+		show you where your search will match
 
 ============================================================
 Repeat yourself numerically
