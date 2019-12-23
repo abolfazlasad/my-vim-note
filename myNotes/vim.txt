@@ -87,32 +87,6 @@ verb + noun
 	y
 
 ============================================================
-set:
-	relativenumber
-	number
-	tabstop
-	shiftwidth
-	hlsearch
-	wildmenu
-	showmode:
-		show the mode that you are in
-	showcmd:
-		show the partial commands as you type them
-	matchpairs+=<:>
-	ruler:
-		show the line and column number of the cursor 
-		for the column if there are tab show two number
-			first tab counted one and second tab counted four
-		TODO : help rulerformat
-			   help statusline
-	wrapscan:
-		can configure vim to wrap the search around from the 
-			end of the buffer back to the start
-		default is set so can set nowrapscan for no wrapping
-	incsearch:
-		show you where your search will match
-
-============================================================
 Repeat yourself numerically
 	if you prefix any of the preceding commands with a number, 
 		it is repeated that many times:	
@@ -247,6 +221,32 @@ Special marks
 	`>	jump to    end    of last visual selection
 	`^	jump to the position where the cursor was the last time when
 			Insert mode was stopped
+
+============================================================
+set:
+	relativenumber
+	number
+	tabstop
+	shiftwidth
+	hlsearch
+	wildmenu
+	showmode:
+		show the mode that you are in
+	showcmd:
+		show the partial commands as you type them
+	matchpairs+=<:>
+	ruler:
+		show the line and column number of the cursor 
+		for the column if there are tab show two number
+			first tab counted one and second tab counted four
+		TODO : help rulerformat
+			   help statusline
+	wrapscan:
+		can configure vim to wrap the search around from the 
+			end of the buffer back to the start
+		default is set so can set nowrapscan for no wrapping
+	incsearch:
+		show you where your search will match
 
 ============================================================
 todo:
