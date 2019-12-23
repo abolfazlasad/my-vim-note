@@ -1,10 +1,3 @@
-noun in vim: (text object)
-	aw - iw
-	at - it
-	a" - i"
-	a{ - i{
-	ap - ip
-	is - is
 
 ============================================================
 Search
@@ -32,10 +25,6 @@ Search
 	if you put a count before the f you're jumped to the Nth instance:
 		5fu
 	use ";", "," for repeat
-
-============================================================
-verb:
-	x , r, s
 
 ============================================================
 word motions:
@@ -77,14 +66,6 @@ scrolling a large buffer
 	H		  - move to the top of the screen
 	M		  - move to the middle of the screen
 	L		  - move to the bottom of the screen
-
-============================================================
-verb + noun
-	d		  w
-	c	      b
-	>(indent) 2j(2 : motion)
-	v		  e 
-	y
 
 ============================================================
 Repeat yourself numerically
