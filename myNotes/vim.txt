@@ -252,7 +252,14 @@ todo:
 vim_mastering :
 	use searches as motions
 	page 13
+<<<<<<< HEAD:myNotes/vim.vim
+read more about mark
+	and some non-alphabetic marks
+read more about case sensitivitiy in search 
+	mastering_vim Page:12
+=======
 read more about case sensitivitiy in search
+>>>>>>> 86237834c7537f6b316ecc4f5c572da75a791b49:myNotes/vim.txt
 	ignorecase
 	smartcase
 	options in search
