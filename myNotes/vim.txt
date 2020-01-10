@@ -37,8 +37,9 @@ word motions:
 	E  - Forward to the next end of WORD
 		
 	( '.' is a word but not is a WORD)
-	sample : press w or W below 
+	sample : press w and W below 
 		hello! word
+		hello ! word
 
 ============================================================
 line and paragragh motions:
