@@ -111,6 +111,7 @@ pen to the page:
 	c - replace from the current cursor position to where 
 		the motion reaches
 	C - Delete from cursor to end of line and begin insert
+	D - Delete from cursor to end of line
 
 ============================================================
 Control your insertions
