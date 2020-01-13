@@ -131,6 +131,7 @@ Control your insertions
 		(even if it's normally a control character)
 	CTRL-W	deletes the word preceding the cursor
 	CTRL-O	takes you back to Normal mode for one command
+			(enter Insert Normal mode)
 		Handy, for example, to clean the rest of the line: D
 
 ============================================================
