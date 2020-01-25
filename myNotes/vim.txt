@@ -16,6 +16,8 @@ Search
 	copy the current word under cursor to the command line
 		1. Press /
 		2. Press CTRL-R and then CTRL-W
+	vim also allows you to enter a count before a search
+		6* will search for the sixth occurrence
 ============================================================
 Search within a line:
 	Often you just want to jump to a particular character 
