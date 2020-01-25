@@ -16,8 +16,8 @@ Search
 	copy the current word under cursor to the command line
 		1. Press /
 		2. Press CTRL-R and then CTRL-W
-	==============================
-	search within a line:
+============================================================
+Search within a line:
 	Often you just want to jump to a particular character 
 			within the current line
 	There's some short-cuts for that: 
