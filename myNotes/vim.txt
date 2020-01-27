@@ -212,6 +212,22 @@ Special marks
 			Insert mode was stopped
 
 ============================================================
+File Manager (netrw) in Vim
+	Vim comes with a built-in netrw plugin for browse file
+	:Ex		open current directory in current Vim window 
+			(remember it as a shortcut of Explore)	
+	:Ex <dir>
+	:Sex	open current directory in horizontal split window
+	:Vex	open current directory in vertical split window
+	:Tex	open current directory in a new tab
+	:Lex	open current directory in vertical split on the left
+	
+	example:
+	:40vs +Ex
+		to open current directory in vertical split window 
+		with width of 40
+
+============================================================
 set:
 	relativenumber
 	number
