@@ -18,6 +18,7 @@ Search
 		2. Press CTRL-R and then CTRL-W
 	vim also allows you to enter a count before a search
 		6* will search for the sixth occurrence
+
 ============================================================
 Search within a line:
 	Often you just want to jump to a particular character 
@@ -226,6 +227,16 @@ File Manager (netrw) in Vim
 	:40vs +Ex
 		to open current directory in vertical split window 
 		with width of 40
+
+============================================================
+Netrw
+	With vim, not only can you open files, but you can also open dirs!
+	some bo the basic file manager operations using netrw:
+		<Enter>	open the file under the Cursor
+		D	deletes the file under the cursor, you can visually select
+		R	renames the file under the cursor
+		X	executes the file under the cursor
+		%	creates a new file in the current directory.
 
 ============================================================
 set:
