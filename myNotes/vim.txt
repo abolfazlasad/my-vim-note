@@ -239,9 +239,14 @@ Netrw
 		%	creates a new file in the current directory.
 
 ============================================================
+Personalizing vim
+	set ...! 	toggle enable/disable	
+	colorscheme scheme_name
+		set scheme
+		
 set:
 	relativenumber
-	number
+	nu[mber]
 	tabstop
 	shiftwidth
 	hlsearch
@@ -263,6 +268,10 @@ set:
 		default is set so can set nowrapscan for no wrapping
 	incsearch:
 		show you where your search will match
+	cursorline;
+		:highlight CursorLine guibg=lightblue ctermbg=lightgrey	
+	cursorcolumn
+			
 
 ============================================================
 todo:
