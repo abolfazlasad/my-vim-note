@@ -243,7 +243,7 @@ Personalizing vim
 	set ...! 	toggle enable/disable	
 	colorscheme scheme_name
 		set scheme
-		
+	set ...?	check the configuration of any vim setting	
 set:
 	relativenumber
 	nu[mber]
@@ -271,6 +271,8 @@ set:
 	cursorline;
 		:highlight CursorLine guibg=lightblue ctermbg=lightgrey	
 	cursorcolumn
+	spell:
+		spell checking
 			
 
 ============================================================
