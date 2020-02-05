@@ -298,6 +298,9 @@ todo:
 vim_mastering :
 	use searches as motions
 	page 13
+vim_Mastering :
+	personalizing vim
+
 read more about case sensitivitiy in search
 	ignorecase
 	smartcase
