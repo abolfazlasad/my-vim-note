@@ -300,6 +300,7 @@ vim_mastering :
 	page 13
 vim_Mastering :
 	personalizing vim
+	Undo and Redo
 
 read more about case sensitivitiy in search
 	ignorecase
