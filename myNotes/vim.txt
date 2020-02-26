@@ -19,11 +19,22 @@ Vim language
 	  t - searches for something and stops before it (searth until)
 	  f - searches for that thing and lands on it (find)
 	  / - find a string (literal or regex)
-
+	Nouns:
+	  Objects you do something to.
+	  all motions (e.g. h,j, w, e, $)
 	
-
-
-
+	Talk to vim
+	  diw  - delete inner word
+	  ci"  - change inner "
+	  vap  - visual around paragraph
+	  
+	some example:
+	  try vi" in below line:
+	    "sample text"	
+	  put the curser on r in world and try ciw:
+		hello world
+	  for remove first parameter put the cursor on f and try df[SPACE]
+	    sum(first, second)
 
 ============================================================
 Search
