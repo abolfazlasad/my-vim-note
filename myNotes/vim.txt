@@ -1,3 +1,21 @@
+Vim language
+	we can split vim elements into three different groups:
+	  verbs, modifiers, nouns
+	Verbs:
+	  x - delete character under the cursor to the right
+	  X - delete character under the cursor to the left
+	  r - replace character under the cursor with another character
+	  s - delete character under the cursor and enter te Insert mode
+	  y - yank (copy)
+	  c - change
+	  d - delete
+	  v - visually select (not really a verb, but used with verbs)
+	  NOTE: these commands are usually known as operator
+
+	
+
+
+
 
 ============================================================
 Search
