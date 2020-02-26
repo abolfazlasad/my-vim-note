@@ -11,6 +11,14 @@ Vim language
 	  d - delete
 	  v - visually select (not really a verb, but used with verbs)
 	  NOTE: these commands are usually known as operator
+	Modifiers:
+	  In vim modifiers are used right before nouns.
+	  i - inner
+	  a - a(around)
+	  NUM - number (e.g. 2)
+	  t - searches for something and stops before it (searth until)
+	  f - searches for that thing and lands on it (find)
+	  / - find a string (literal or regex)
 
 	
 
