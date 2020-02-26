@@ -59,7 +59,14 @@ Search within a line:
 	use ";", "," for repeat
 
 ============================================================
-word motions:
+Motions:
+  Charecter motions:
+	h  - left
+	j  - down
+	k  - up
+	l  - right
+	
+  Word motions:
 	w  - Forward to the beginning of next word
 	W  - Forvard to the beginning of the next WORD
 	b  - Backward to the next beginning of a word
@@ -67,14 +74,8 @@ word motions:
 	e  - Forward to the next end of word
 	ge - Backward to the end of the previous word
 	E  - Forward to the next end of WORD
-		
-	( '.' is a word but not is a WORD)
-	sample : press w and W below 
-		hello! word
-		hello ! word
-
-============================================================
-line and paragragh motions:
+	
+  Line and paragragh motions:
 	0	- To move to the start of the current line
 	^	- To move to the start of the first word of the current line
 	$	- To move to the end of the current line
@@ -85,7 +86,11 @@ line and paragragh motions:
 	gg	- to move to the top of the buffer
 	G	- to move to the end of the buffer
 	ngg - to move to line n (:n and nG work same)
-	
+		
+	( '.' is a word but is not a WORD)
+	sample : press w and W below 
+		hello! word
+		hello ! word
 	A paragraph is delimited by empty lines (not black lines)
 
 ============================================================
