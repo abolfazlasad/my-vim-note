@@ -117,6 +117,9 @@ scrolling a large buffer
 	H		  - move cursor to the ((H)ighest) line in current window
 	L		  - move cursor to the ((L)owest)  line in current window
 	M		  - move curosr to the ((M)iddle)  of  the current window
+	zz		  - put current cursor position to middle of screen
+	zt		  - put current cursor position to top    of screen
+	zb		  - put current cursor position to bottom of screen
 
 ============================================================
 Repeat yourself numerically
