@@ -1,7 +1,7 @@
 Vim language
 	we can split vim elements into three different groups:
 	  verbs, modifiers, nouns
-	Verbs:
+	Verbs (operators):
 	  x - delete character under the cursor to the right
 	  X - delete character under the cursor to the left
 	  r - replace character under the cursor with another character
@@ -10,6 +10,9 @@ Vim language
 	  c - change
 	  d - delete
 	  v - visually select (not really a verb, but used with verbs)
+	  ~ - swap case
+	  gu- make lowercase
+	  gU- make uppercase
 	  NOTE: these commands are usually known as operator
 	Modifiers:
 	  In vim modifiers are used right before nouns.
